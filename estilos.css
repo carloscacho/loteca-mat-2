@@ -24,3 +24,17 @@ h3 {
   font-family: sans-serif;
   margin-top: 10px;
 }
+
+.selecao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selecao > input {
+  width: 1.5em;
+  font-size: 4em;
+  margin-right: 15px;
+  background-color: pink;
+}
+
