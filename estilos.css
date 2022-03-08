@@ -25,10 +25,17 @@ h3 {
   margin-top: 10px;
 }
 
-.selecao{
+.selecao, .btnSort, .sorteio, .acertos{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
+}
+
+.btnSort > button {
+  font-size: 2em;
+  padding: 10px 25px;
+  background-color: chartreuse;
 }
 
 .selecao > input {
@@ -38,3 +45,18 @@ h3 {
   background-color: pink;
 }
 
+
+footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+footer > p {
+  color: white;
+  font-size: 2em;
+}
